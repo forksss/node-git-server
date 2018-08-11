@@ -6,7 +6,7 @@
   "contributors": [
     {
       "name": "echopoint",
-      "email": "echopoint <echopoint@tutanota.com>"
+      "email": "echopoint@tutanota.com"
     }
   ],
   "license": "MIT",
@@ -26,16 +26,16 @@
     "lint": "eslint .",
     "test": "tape test/*.js",
     "coverage": "tap test/*.js --coverage --coverage-report=lcov",
-    "generate-docs": "tryitout && jsdoc -c jsdoc.json"
+    "doc": "docma -s lib/git.js -s lib/http-duplex.js -s lib/service.js -s lib/util.js -c docma.json -d docs",
+    "doc:s": "docma serve docs -p 8089"
   },
   "dependencies": {
     "through": "^2.3.8"
   },
   "devDependencies": {
     "async": "^2.6.0",
-    "docdash": "^0.4.0",
+    "docma": "^2.1.0",
     "eslint": "^4.15.0",
-    "jsdoc": "^3.5.5",
     "tap": "^11.0.1",
     "tape": "^4.8.0",
     "tryitout": "^2.0.6"

@@ -1,0 +1,59 @@
+{
+  "template": {
+    "options": {
+      "title": {
+        "label": "node-git-server",
+        "href": "/"
+      },
+      "contentView": {
+        "bookmarks": true
+      },
+      "sidebar": {
+        "enabled": true,
+        "outline": "tree",
+        "collapsed": false,
+        "toolbar": true,
+        "itemsFolded": false,
+        "itemsOverflow": "crop",
+        "badges": true,
+        "search": true,
+        "animations": true
+      },
+      "navbar": {
+        "enabled": true,
+        "dark": false,
+        "animations": true,
+        "menu": [
+          {
+            "label": "Docs",
+            "iconClass": "fas fa-book",
+            "href": "./"
+          },
+          {
+            "label": "Download",
+            "iconClass": "fas fa-cloud-download-alt",
+            "items": [
+              {
+                "label": "v0.5.0-pre",
+                "href": "https://github.com/user/repo/archive/v0.7.0-pre.zip"
+              },
+              {
+                "separator": true
+              },
+              {
+                "label": "v1.0.0",
+                "href": "https://github.com/user/repo/archive/v1.0.0.zip"
+              }
+            ]
+          },
+          {
+            "label": "GitHub",
+            "iconClass": "fab fa-github",
+            "href": "https://github.com/gabrielcsapo/node-git-server",
+            "target": "_blank"
+          }
+        ]
+      }
+    }
+  }
+}
